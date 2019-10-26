@@ -34,7 +34,7 @@ Or in code:
 I'll evaluate the code in the comment block by hand in the REPL to activate
 my taps. Not terrible, but boilerplatey after awhile. And sometimes I'll want
 to change `f1-tap` but forget to remove the original copy before redefining
-and adding, and now wind up with two versions.
+and adding, and now wind up with two versions receiving tap messages.
 
 tapic is a simple library to support my quick-and-dirty workflow, with the
 following features:
